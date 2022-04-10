@@ -40,7 +40,6 @@ namespace std{
         size_t operator()(const key_aster& k) const {
             return hash<int>()( hash<estado>()( k.first ) ^ hash<sigma_aster>() (k.second));
         }
-
     };
 }
 
@@ -74,17 +73,29 @@ salida lambda(estado e, sigma simbolo){
 estado delta_techo(estado e, sigma_aster entrada){
     if (entrada == epsilon) return e;
     else {
-        sigma_aster w = entrada.substr(0,entrada.length()-1);
-        sigma a = entrada[entrada.length()-1];
-        return delta( delta_techo(e, w), a);
+        const auto it = deltas_t.find({e, entrada});
+        if (it != deltas_t.end())
+            return it -> second;
+        else {
+            sigma_aster w = entrada.substr(0,entrada.length()-1);
+            sigma a = entrada[entrada.length()-1];
+            deltas_t[{e, entrada}] = delta( delta_techo(e, w), a);
+            return deltas_t[{e, entrada}];
+        }
     }
 }
 salida lambda_techo(estado e, sigma_aster entrada){
     if (entrada == epsilon) return epsilon;
     else {
-        sigma_aster w = entrada.substr(0,entrada.length()-1);
-        sigma a = entrada[entrada.length()-1];
-        return lambda_techo(e, w) + lambda( delta_techo(e, w), a);
+        const auto it = lambdas_t.find({e, entrada});
+        if (it != lambdas_t.end())
+            return it -> second;
+        else {
+            sigma_aster w = entrada.substr(0,entrada.length()-1);
+            sigma a = entrada[entrada.length()-1];
+            lambdas_t[{e, entrada}] = lambda_techo(e, w) + lambda( delta_techo(e, w), a);
+            return lambdas_t[{e, entrada}];
+        }
     }
 }
 
@@ -108,9 +119,10 @@ int main(){
     };
 
     entrada ent = "1001";
+    estado q0 = 0;
 
     try {
-        cout << init(0,ent) << endl;
+        cout << init(q0,ent) << endl;
     } 
     catch (const invalid_argument& ex){
         cout << ex.what() << endl; 
