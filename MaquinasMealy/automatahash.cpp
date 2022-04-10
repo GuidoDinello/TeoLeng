@@ -14,15 +14,23 @@ using std::make_pair;
 using std::cout;
 using std::endl;
 
-
+//==============================//
+/*
+ If you want to use other types, change them here.
+ They should be primitive types, otherwise an according hash function must be provided 
+ along with an appropriate operator<< overload
+*/
 typedef int estado;
 typedef char sigma;
 typedef string sigma_aster;
 typedef char t_delta;
 typedef string delta_aster;
 
-typedef string entrada;
-typedef string salida;
+//==============================//
+
+
+typedef sigma_aster entrada;
+typedef delta_aster salida;
 
 typedef std::pair<estado, sigma> key;
 typedef std::pair<estado, sigma_aster> key_aster;
@@ -104,7 +112,10 @@ salida init(estado q0, entrada ent){
 }
 
 int main(){
+    // M : (Q,Σ,Δ,δ,λ,q0)
+
     deltas = {
+    // δ: Q x Σ -> Q
         {{0,'1'}, 0},
         {{0,'0'}, 1},
         {{1,'0'}, 0},
@@ -112,14 +123,19 @@ int main(){
     };
 
     lambdas = {
+    // λ: Q x Σ -> Δ
         {{0,'1'}, 'P'},
         {{0,'0'}, 'I'},
         {{1,'0'}, 'P'},
         {{1,'1'}, 'I'}      
     };
 
-    entrada ent = "1001";
-    estado q0 = 0;
+    // δ^: Q x Σ* -> Q
+    // λ^: Q x Σ* -> Δ*
+
+    entrada ent = "1001";   // entry type is Σ*
+    estado q0 = 0;          // initial state type is Q
+                            // output type is Δ*
 
     try {
         cout << init(q0,ent) << endl;
