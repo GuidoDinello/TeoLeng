@@ -31,14 +31,14 @@ namespace std{
     template<>
     struct hash<key>{
         size_t operator()(const key& k) const {
-            return hash<int>()( hash<int>()( k.first ) ^ hash<char>() (k.second));
+            return hash<int>()( hash<estado>()( k.first ) ^ hash<sigma>() (k.second));
         }
     };
 
     template<>
     struct hash<key_aster>{
         size_t operator()(const key_aster& k) const {
-            return hash<int>()( hash<int>()( k.first ) ^ hash<string>() (k.second));
+            return hash<int>()( hash<estado>()( k.first ) ^ hash<sigma_aster>() (k.second));
         }
 
     };
