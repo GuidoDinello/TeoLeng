@@ -1,0 +1,1 @@
+or(m,and(and(n,not(o)),or(p,not(q))))

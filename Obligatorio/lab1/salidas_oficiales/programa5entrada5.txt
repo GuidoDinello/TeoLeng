@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Image>
+    <FileSize> 5 kB </FileSize>
+    <FileModifyDate> 2016-12-27T26:00:00.000+00:00 </FileModifyDate>
+    <FileType> JPEG </FileType>
+    <FileTypeExtension> jpg </FileTypeExtension>
+    <MIMEType> image/jpeg </MIMEType>
+    <ResolutionUnit> inches </ResolutionUnit>
+    <Description>
+        Sample file
+    </Description>
+    <EncodingProcess> Baseline DCT, Huffman coding </EncodingProcess>
+    <YCbCrSubSampling> YCbCr4:4:4 (1 1) </YCbCrSubSampling>
+    <ImageSize> 4200x5000 </ImageSize>
+</Image>

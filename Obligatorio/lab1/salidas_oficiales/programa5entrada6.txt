@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Image>
+    <FileSize> 34 kB </FileSize>
+    <FileModifyDate> 2013-01-14T07:23:17.000+00:00 </FileModifyDate>
+    <FileType> JPEG </FileType>
+    <FileTypeExtension> jpg </FileTypeExtension>
+    <MIMEType> image/jpeg </MIMEType>
+    <ResolutionUnit> inches </ResolutionUnit>
+    <Comment> Non-uruguayan URL example https://www.youtube.com/feed/subscriptions </Comment>
+    <EncodingProcess> Baseline DCT, Huffman coding </EncodingProcess>
+    <YCbCrSubSampling> YCbCr4:4:4 (1 1) </YCbCrSubSampling>
+    <ImageSize> 1920x1080 </ImageSize>
+</Image>

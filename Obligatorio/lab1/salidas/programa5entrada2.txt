@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Image>
+  <FileInodeChangeDate> 2022-03-17T16:44:18.000+00:00 </FileInodeChangeDate>
+  <ImageSize> 1371x2048 </ImageSize>
+  <Comment> Noam Chomsky </Comment>
+  <FileSize> 286 kB </FileSize>
+  <FileTypeExtension> jpg </FileTypeExtension>
+  <ResolutionUnit> None </ResolutionUnit>
+  <FileModifyDate> 2022-03-17T16:44:18.000+00:00 </FileModifyDate>
+  <FileType> JPEG </FileType>
+  <YCbCrSubSampling> YCbCr4:2:0 (2 2) </YCbCrSubSampling>
+  <EncodingProcess> Baseline DCT, Huffman coding </EncodingProcess>
+  <FileAccessDate> 2022-03-17T16:44:18.000+00:00 </FileAccessDate>
+  <MIMEType> image/jpeg </MIMEType>
+</Image>

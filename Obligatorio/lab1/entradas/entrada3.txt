@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Image>
+    <EncodingProcess> Baseline DCT, Huffman coding </EncodingProcess>
+    <ProfileDateTime> 1998-02-09T06:49:00.000+00:00 </ProfileDateTime>
+    <FileType> JPEG </FileType>
+    <FileTypeExtension> jpg </FileTypeExtension>
+    <MIMEType> image/jpeg </MIMEType>
+    <Description> File source: http://commons.wikimedia.org/wiki/File:Final_del_recital_de_Los_Premios_Mastropiero_-_Les_Luthiers.jpg </Description>
+    <Comment> Metadata para el curso de teoleng https://eva.fing.edu.uy </Comment>
+    <Megapixels> 0.044 </Megapixels>
+    <ResolutionUnit> inches </ResolutionUnit>
+    <Resolution> <X>96</X> <Y>96</Y> </Resolution>
+    <FileAccessDate> 2022-03-21T16:58:21.000+00:00 </FileAccessDate>
+    <Size><X>250</X><Y>178</Y></Size>
+    <FileSize> 14 kB </FileSize>
+    <DeviceMfgDesc> IEC http://www.iec.ch </DeviceMfgDesc>
+    <ProfileVersion> 2.1 </ProfileVersion>
+    <ViewingCondIlluminant> 19.6445 20.3718 16.8089 </ViewingCondIlluminant>
+    <BitsPerSample> 8 </BitsPerSample>
+    <ColorComponents> 3 </ColorComponents>
+    <YCbCrSubSampling> YCbCr4:2:0 (2 2) </YCbCrSubSampling>
+    <ImageSize> 250x178 </ImageSize>
+    <MeasurementFlare> 0.999% </MeasurementFlare>
+    <JFIFVersion> 1.01 </JFIFVersion>
+    <FileInodeChangeDate> 2021-10-24T07:28:21.000+00:000 </FileInodeChangeDate>
+    <FileModifyDate> 2020-04-12T16:01:11.000+00:00 </FileModifyDate>
+</Image>

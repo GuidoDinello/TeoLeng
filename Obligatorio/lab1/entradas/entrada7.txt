@@ -1,0 +1,33 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Image>
+     <FileSize> 1024 kB </FileSize>
+     <FileModifyDate> 2022-07-10T19:48:00.000+00:00 </FileModifyDate>
+    <FileType> JPEG </FileType>
+    <FileTypeExtension> jpg </FileTypeExtension>
+     <MIMEType> image/jpeg </MIMEType>
+    <JFIFVersion> 1.00 </JFIFVersion>
+    <ResolutionUnit> inches </ResolutionUnit>
+       <Resolution>
+        <X> 1 </X>
+        <Y> 1 </Y>
+      </Resolution>
+    
+         <Comment> Uruguayan URL example https://montevideo.com.uy/ </Comment>
+    
+    <Description>
+        Candidate file
+    </Description>
+    <Size>
+         <X> 480 </X>
+          <Y> 360 </Y>
+    </Size>
+     <EncodingProcess> Baseline DCT, Huffman coding </EncodingProcess>
+    <BitsPerSample> 8 </BitsPerSample>
+  <ColorComponents> 3 </ColorComponents>
+    <YCbCrSubSampling> YCbCr4:2:4 (1 0) </YCbCrSubSampling>
+   <ImageSize> 480x360 </ImageSize>
+   <Megapixels> 1.4 </Megapixels>
+</Image>

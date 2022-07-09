@@ -1,0 +1,2 @@
+Resolucion X: 96
+Resolucion Y: 96

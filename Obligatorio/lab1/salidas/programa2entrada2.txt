@@ -1,0 +1,2 @@
+Resolucion X: 1
+Resolucion Y: 1

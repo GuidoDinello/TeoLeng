@@ -1,0 +1,2 @@
+Resolucion X: 3099
+Resolucion Y: 2099

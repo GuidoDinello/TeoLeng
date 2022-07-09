@@ -1,0 +1,2 @@
+Resolucion X: 400
+Resolucion Y: 600

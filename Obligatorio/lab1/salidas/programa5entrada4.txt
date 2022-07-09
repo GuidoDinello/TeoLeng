@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Image>
+ <FileSize> 85 kB </FileSize>
+    <FileModifyDate>   1998-12-07T13:55:00.000+00:00 </FileModifyDate>
+    <FileInodeChangeDate> 2012-07-12T05:25:15.000+00:00  </FileInodeChangeDate>   
+    <FileType>    JPEG   </FileType>
+    <FileTypeExtension>jpg</FileTypeExtension>
+    <MIMEType>  image/jpeg</MIMEType>
+    <ResolutionUnit> inches </ResolutionUnit> 
+ <Comment> Un link uruguayo: https://bedelias.udelar.edu.uy/views/public/desktop/consultarCalendario/consultarCalendario01.xhtml?cid=1 No debe aparecer </Comment> 
+     <EncodingProcess> Baseline DCT, Huffman coding </EncodingProcess>
+     <YCbCrSubSampling> YCbCr4:2:2 (1 0) </YCbCrSubSampling>
+    <ImageSize>600x400</ImageSize>
+</Image>

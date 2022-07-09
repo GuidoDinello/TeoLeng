@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Image>
+    <FileSize> 5 kB </FileSize>
+    <FileModifyDate> 2016-12-27T26:00:00.000+00:00 </FileModifyDate>
+    <FileType> JPEG </FileType>
+    <FileTypeExtension> jpg </FileTypeExtension>
+    <MIMEType> image/jpeg </MIMEType>
+    <JFIFVersion> 1.01 </JFIFVersion>
+    <ResolutionUnit> inches </ResolutionUnit>
+    <Resolution>
+        <X> 3099 </X>
+        <Y> 2099 </Y>
+    </Resolution>
+    <Comment>  </Comment>
+    <Description>
+        Sample file
+    </Description>
+    <Size>
+        <X> 4200 </X>
+        <Y> 5000 </Y>
+    </Size>
+    <EncodingProcess> Baseline DCT, Huffman coding </EncodingProcess>
+    <BitsPerSample> 8 </BitsPerSample>
+    <ColorComponents> 3 </ColorComponents>
+    <YCbCrSubSampling> YCbCr4:4:4 (1 1) </YCbCrSubSampling>
+    <ImageSize> 4200x5000 </ImageSize>
+    <Megapixels> 2.4 </Megapixels>
+</Image>

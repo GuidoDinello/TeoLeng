@@ -1,0 +1,1 @@
+not(and(z,not(not(and(y,or(x,not(y)))))))
